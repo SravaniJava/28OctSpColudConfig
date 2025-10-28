@@ -1,0 +1,10 @@
+server:
+  port: 8081
+
+app:
+  name: booking-service
+  message: "Welcome to Booking Service - Config from Git!"
+
+airline:
+  payment-service-url: http://localhost:8082/payments
+  notification-service-url: http://localhost:8083/notify
